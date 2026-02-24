@@ -1,0 +1,53 @@
+Program: Menu-Driven Doubly Linked List Operations
+
+This program demonstrates basic operations on a doubly linked list using a menu-driven approach:
+1. Create a doubly linked list (nodes connected with both next and prev pointers)
+2. Display the list in forward direction
+3. Insert a node:
+   - At the start
+   - At the end
+   - At a specific location
+4. Delete a node:
+   - At the start
+   - At the end
+   - At a specific location
+
+Constraints:
+- Dynamic memory allocation used for nodes
+- Handles empty list cases and single-node list cases
+- Maintains proper forward and backward links after every operation
+
+Sample Run:
+------MENU-----
+1. Create
+2. Display
+3. Insert
+4. Delete
+5. Exit
+Enter your choice: 1
+Enter the data of the node: 10
+Do you want to enter another node (Y/N)? Y
+Enter the data of the node: 20
+Do you want to enter another node (Y/N)? N
+
+Enter your choice: 2
+10 <-> 20 <-> NULL
+
+Enter your choice: 3
+--Insertion Menu--
+1. At Start
+2. At End
+3. At Location
+4. Exit
+Enter choice: 1
+Enter data of new node: 5
+Updated list: 5 <-> 10 <-> 20 <-> NULL
+
+Enter your choice: 4
+--Deletion Menu--
+1. At Start
+2. At End
+3. At Location
+4. Exit
+Enter choice: 2
+Updated list: 5 <-> 10 <-> NULL
