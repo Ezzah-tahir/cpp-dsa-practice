@@ -1,0 +1,42 @@
+Program: Menu-Driven Circular Singly Linked List Operations
+
+This program demonstrates basic operations on a circular singly linked list using a menu-driven approach:
+1. Create a circular singly linked list (nodes point back to head)
+2. Display the list (shows elements in circular form ending with "Back to Head")
+3. Insert a node at the start
+4. Insert a node at the end
+5. Delete a node from the start
+6. Delete a node from the end
+
+Constraints:
+- Dynamic memory allocation used for nodes
+- Handles empty list cases and single-node list cases
+- Maintains circular property after every operation
+
+Sample Run:
+--- MENU ---
+1. Create
+2. Display
+3. Insert at Start
+4. Insert at End
+5. Delete at Start
+6. Delete at End
+7. Exit
+
+Enter choice: 1
+Enter the data of the node: 10
+Do you want to enter another node (Y/N)? Y
+Enter the data of the node: 20
+Do you want to enter another node (Y/N)? N
+
+Enter choice: 2
+10 -> 20 -> (Back to Head)
+
+Enter choice: 3
+Enter data: 5
+List after insertion:
+5 -> 10 -> 20 -> (Back to Head)
+
+Enter choice: 5
+List after deletion at start:
+10 -> 20 -> (Back to Head)
