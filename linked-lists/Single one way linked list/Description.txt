@@ -1,0 +1,56 @@
+Program: Menu-Driven Singly Linked List Operations
+
+This program demonstrates basic operations on a singly linked list using a menu-driven approach:
+1. Create a singly linked list (nodes connected with next pointers)
+2. Display the list
+3. Insert a node:
+   - At the start
+   - At the end
+   - At a specific location
+4. Delete a node:
+   - At the start
+   - At the end
+   - At a specific location
+
+Constraints:
+- Dynamic memory allocation used for nodes
+- Handles empty list cases and single-node list cases
+- Maintains proper links after every insertion or deletion
+
+Sample Run:
+------MENU-----
+1. Create
+2. Display
+3. Insert
+4. Delete
+5. Exit
+
+Enter your choice: 1
+enter the data of the node: 10
+do you want to enter another node (Y/N)? Y
+enter the data of the node: 20
+do you want to enter another node (Y/N)? N
+
+Enter your choice: 2
+10 -> 20 -> NULL
+
+Enter your choice: 3
+-----Inserting Menu-----
+1. Insert at start
+2. Insert at end
+3. Insert at given location
+4. Exit insertion menu
+Enter choice: 1
+enter the data of new node: 5
+after insertion:
+5 -> 10 -> 20 -> NULL
+
+Enter your choice: 4
+-----Deletion Menu-----
+1. Delete at start
+2. Delete at end
+3. Delete at given location
+4. Exit deletion menu
+Enter choice: 2
+after deletion:
+5 -> 10 -> NULL
