@@ -1,0 +1,52 @@
+Program: Menu-Driven 2D Array Operations
+
+This program demonstrates basic operations on a 2D array using a menu-driven approach:
+1. Array creation with user-defined rows and columns
+2. Displaying elements in matrix form
+3. Insertion of a new row (at start, at end, or at a specific position)
+4. Deletion of a row (at start, at end, or at a specific position)
+5. Searching for an element (returns row and column position)
+6. Calculating the average of all elements
+
+Constraints:
+- Maximum size: 30 rows × 30 columns
+- Input validation included (invalid positions, exceeding max size)
+
+Sample Run:
+---------Menu---------
+1. Create Array
+2. Display Array
+3. Insert Element
+4. Delete Element
+5. Search Element
+6. Display Average
+7. Exit
+Enter your choice: 1
+Enter the number of rows: 2
+Enter the number of columns: 3
+Enter the elements row by row:
+10 20 30
+40 50 60
+
+Enter your choice: 2
+Displaying elements of the 2D array:
+10 20 30
+40 50 60
+
+Enter your choice: 3
+a. Insert at Start
+b. Insert at End
+c. Insert at Specific Position
+Enter your choice: a
+Enter the elements for the new row: 5 5 5
+Displaying elements of the 2D array:
+5 5 5
+10 20 30
+40 50 60
+
+Enter your choice: 5
+Enter target value: 50
+Element found at position (2, 2)
+
+Enter your choice: 6
+Average: 30

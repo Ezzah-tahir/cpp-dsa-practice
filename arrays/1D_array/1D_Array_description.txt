@@ -1,0 +1,28 @@
+Program: Menu-Driven Array Operations
+
+This program demonstrates basic array operations using a menu-driven approach:
+1. Array creation and input
+2. Displaying elements
+3. Insertion (start, end, specific position)
+4. Deletion (start, end, specific position)
+5. Searching for an element
+6. Calculating average of elements
+
+Constraints:
+- Maximum array size: 30
+- Input validation included (e.g., invalid positions, exceeding max size)
+
+Sample Run:
+---------Menu---------
+1. Create Array
+2. Display Array
+3. Insert Element
+4. Delete Element
+5. Search Element
+6. Display Average
+7. Exit
+
+Example:
+Input: Create array with 5 elements → [10, 20, 30, 40, 50]
+Operation: Insert 15 at start
+Output: [15, 10, 20, 30, 40, 50]
