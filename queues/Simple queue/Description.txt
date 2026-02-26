@@ -1,0 +1,32 @@
+Project: Simple Queue Implementation in C++
+
+Overview:
+This program demonstrates a simple linear queue using arrays in C++.
+It follows the FIFO (First In First Out) principle where elements are
+inserted at the rear and removed from the front.
+
+Files:
+1. queue.h        → Class definition for 'myqueue'
+2. queue.cpp      → Implementation of queue methods
+3. test.cpp       → Menu-driven program to test queue operations
+
+Features:
+- Enqueue: Insert an element at the rear
+- Dequeue: Remove an element from the front
+- Peek: View the front element without removing it
+- isFull: Check if the queue is full
+- isEmpty: Check if the queue is empty
+- Display: Print all elements currently in the queue
+
+Constraints:
+- Maximum size of the queue is defined by constant MAX (default = 10).
+- Overflow occurs when rear reaches MAX - 1.
+- Underflow occurs when attempting to dequeue from an empty queue.
+
+Usage:
+Run the program and use the menu options (1–7) to perform operations.
+The program continues until the user selects option 7 (Exit).
+
+Applications:
+Simple queues are widely used in task scheduling, buffering, and
+resource management where FIFO order is required.
