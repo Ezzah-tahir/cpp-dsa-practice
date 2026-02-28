@@ -1,0 +1,40 @@
+Program Description: Circular Queue Menu-Driven Application
+
+This program implements a **menu-driven application** to demonstrate the operations of a **circular queue** using a custom class `myqueue` (defined in `Header.h`). It allows the user to interactively perform standard queue operations through a console-based interface.
+
+ Features
+- **Enqueue (Insertion):** Adds a new element to the rear of the queue.
+- **Dequeue (Deletion):** Removes and returns the front element of the queue.
+- **Peek:** Displays the element at the front without removing it.
+- **Check Full:** Verifies if the circular queue has reached its maximum capacity.
+- **Check Empty:** Verifies if the circular queue is empty.
+- **Display:** Shows all elements currently stored in the queue.
+- **Exit:** Terminates the program.
+
+### Workflow
+1. The program displays a **menu** with numbered options.
+2. The user selects an option by entering the corresponding number.
+3. Based on the choice:
+   - Queue operations (`enqueue`, `dequeue`, `peek`, etc.) are executed.
+   - Appropriate messages are displayed (e.g., "Dequeued item: X").
+   - Error handling is included (returns `-1` if an operation cannot be performed).
+4. The loop continues until the user selects **Exit (7)**.
+
+### Example Run
+```
+-------Menu-------
+
+1. Enqueue
+2. Dequeue
+3. Peek
+4. Check if the queue is full
+5. Check if the queue is empty
+6. Display
+7. Exit
+
+Enter your choice: 1
+Enter data to enqueue: 10
+
+Enter your choice: 6
+Displaying:
+10
