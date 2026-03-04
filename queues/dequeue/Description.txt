@@ -1,0 +1,23 @@
+Project: Deque Implementation in C++
+
+Description:
+This project demonstrates the implementation of a double-ended queue (deque) using a fixed-size array in C++. 
+The deque supports insertion and deletion operations from both ends (front and rear), along with utility 
+functions to check if the deque is empty or full, and to display its contents.
+
+Key Features:
+- Insert elements at the front and rear
+- Remove elements from the front and rear
+- Display current contents of the deque
+- Handle overflow and underflow conditions gracefully
+- Simple test program (main.cpp) to demonstrate functionality
+
+Structure:
+- Header.h : Class definition of the deque
+- Implementation.cpp : Function implementations for deque operations
+- main.cpp : Driver program to test the deque
+
+Learning Outcomes:
+- Understanding array-based implementation of deque
+- Practicing object-oriented programming concepts in C++
+- Handling edge cases (overflow/underflow) in data structures
