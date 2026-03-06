@@ -1,0 +1,42 @@
+Binary Search Tree (BST) Operations – C++ Implementation
+
+This program implements several fundamental operations of a Binary Search Tree (BST) using C++. The main purpose of this program is to practice tree-based data structures and understand how different BST operations work internally.
+
+Concepts Implemented:
+
+* Binary Search Tree (BST)
+* Node structure with left, right, and parent pointers
+* Recursive searching
+* Finding minimum value in a BST
+* Finding maximum value in a BST
+* Inorder successor
+* Inorder predecessor
+* Menu-driven program for user interaction
+
+Program Description:
+A node structure is created to represent each element of the binary search tree. Each node stores the data value along with pointers to its left child, right child, and parent node.
+
+The program includes functions to perform the following operations:
+
+1. Insert Node
+   Inserts a new value into the Binary Search Tree while maintaining the BST property.
+
+2. Search Node
+   Recursively searches for a specific key in the tree and returns the node if it exists.
+
+3. Find Minimum
+   Traverses the leftmost path of the tree to find the smallest element.
+
+4. Find Maximum
+   Traverses the rightmost path of the tree to find the largest element.
+
+5. Inorder Successor
+   Finds the next larger element of a given node in the BST.
+
+6. Inorder Predecessor
+   Finds the previous smaller element of a given node in the BST.
+
+The program uses a menu-driven interface where the user can repeatedly select operations such as inserting nodes, searching for elements, and finding minimum, maximum, successor, or predecessor values.
+
+This implementation helps in understanding how tree traversal and node relationships (parent, left child, right child) are used to efficiently perform BST operations.
+
